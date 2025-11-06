@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Details | Dogs Embassy</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Dogs Embassy</div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="about.html">About <i class="fa-solid fa-angle-down"></i></a>
+        <div class="dropdown-content">
+          <a href="story.html">Our Story</a>
+          <a href="team.html">Our Team</a>
+          <a href="mission.html">Mission</a>
+        </div>
+      </div>
+      <a href="dogs.html">Dogs</a>
+      <div class="dropdown">
+        <a href="services.html">Services <i class="fa-solid fa-angle-down"></i></a>
+        <div class="dropdown-content">
+          <a href="grooming.html">Grooming</a>
+          <a href="training.html">Training</a>
+          <a href="boarding.html">Boarding</a>
+          <a href="vetcare.html">Vet Care</a>
+        </div>
+      </div>
+      <a href="shop.html">Shop</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+      <a href="#" class="icon"><i class="fa-solid fa-cart-shopping"></i></a>
+      <div class="dropdown user-dropdown">
+        <a href="#" class="icon"><i class="fa-solid fa-user"></i></a>
+        <div class="dropdown-content right">
+          <a href="#">Profile</a>
+          <a href="#">Orders</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+
+  <!-- Dog Details Section -->
+  <section class="dog-details">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="dogs.html">Shop</a> / <span>Golden Retriever</span>
+      </div>
+
+      <div class="details-wrapper">
+        <div class="image-container">
+          <img src="assets/images/6.jpg" alt="Golden Retriever" />
+        </div>
+        <div class="info-container">
+          <h2>Golden Retriever</h2>
+          <p class="price">$800</p>
+          <p class="breed-info">
+            <strong>Breed:</strong> Golden Retriever<br />
+            <strong>Age:</strong> 2 years<br />
+            <strong>Gender:</strong> Male<br />
+            <strong>Vaccinated:</strong> Yes
+          </p>
+
+          <p class="description">
+            The Golden Retriever is a friendly, intelligent, and devoted breed.
+            Perfect for families, they are great companions and love to play.
+            All our retrievers are health-checked, vaccinated, and trained to
+            adapt to your home.
+          </p>
+
+          <a href="#" class="btn add-to-cart"><i class="fa-solid fa-cart-plus"></i> Add to Cart</a>
+          <a href="shop.html" class="btn secondary">Back to Shop</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-upper">
+      <div class="footer-logo">
+        <img src="assets/images/logo.png" alt="Logo">
+        <h3>Dogs Embassy</h3>
+        <p>Where every dog is treated like royalty.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="newsletter">
+        <h4>Stay Updated</h4>
+        <p>Subscribe to get our latest updates & tips.</p>
+        <form>
+          <input type="email" placeholder="Your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-lower">
+  <p>&copy; 2025 Dogs Embassy. All Rights Reserved.</p>
+  <div class="socials">
+    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
